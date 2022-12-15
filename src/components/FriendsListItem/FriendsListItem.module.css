@@ -1,0 +1,19 @@
+.item {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.name {
+  font-size: 50px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  box-sizing: border-box;
+}
+.status.isOnline {
+  background-color: green;
+}
