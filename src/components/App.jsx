@@ -10,7 +10,6 @@ import user from '../constants/user.json';
 import data from '../constants/data.json';
 import friends from '../constants/friends.json';
 import transactions from '../constants/transactions.json';
-import PropTypes from 'prop-types';
 
 export const App = () => {
   return (
